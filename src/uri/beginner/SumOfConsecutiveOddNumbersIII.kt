@@ -1,8 +1,7 @@
 package uri.beginner
 
+import uri.extensions.isOdd
 import java.util.*
-
-fun Int.isOdd() = this % 2 != 0
 
 // https://www.urionlinejudge.com.br/judge/en/problems/view/1158
 fun main(args: Array<String>) {
